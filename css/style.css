@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+h3{
+    text-align: center;
+    margin: 10px 0;
+}
+/* Header */
+header{
+    text-align: center;
+    margin: 30px 0;
+}
+/* Section*/
+section{
+    display: flex;
+}
+#container{
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+#painel{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+#adicionar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#adicionar input{
+    width: 250px;
+    height: 30px;
+    margin-right: 5px;
+    flex: 1;
+}
+#adicionar button{
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+}
+
+#adicionar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#editar{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+}
+#editar input{
+    width: 250px;
+    height: 30px;
+    margin-right: 5px;
+    flex: 1;
+}
+#editar button{
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+}
+#editar button:hover{
+    cursor: pointer;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    color: black;
+}
+
+#pesquisar{
+    display: none;
+    align-items: center;
+    margin: 10px 0;
+}
+#pesquisar input{
+    width: 250px;
+    height: 30px;
+}
+#pesquisar button{
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+}
+#pesquisar button:hover{
+    cursor: pointer;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    color: black;
+}
+#s-filtro{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin: 0 20px;
+}
+#s-filtro label{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+#s-filtro select{
+    height: 30px;
+}
+/* Itens */
+#lista{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;
+}
+.controle button{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+/* Footer */
+footer{
+    text-align: center;
+    margin: 40px;
+}

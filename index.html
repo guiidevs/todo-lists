@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/8e5eba0afc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Lista de Projetos</h1>
+    </header>
+        <div id="container">
+            <h3>Painel de controle</h3>
+            <div id="painel">
+                <div id="adicionar">
+                    <input placeholder='Adicionar item.' type="text" name="" id="inputadicionar">
+                    <button>+</button>
+                </div>
+                <div id="pesquisar">
+                    <div id="s-pesquisar">
+                      <input placeholder="Pesquisar" type="text" name="" id="inputpesquisar">
+                      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <div id="s-filtro">
+                        <label for="">FILTRO:</label>
+                        <select name="inputfiltro" id="">
+                            <option value="todos">Todos</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="editar">
+                    <input placeholder='Adicionar item.' type="text" name="" id="inputadicionar">
+                    <button class="editar"><i class="fa-solid fa-pen-to-square"></i></button>
+                </div>
+            </div>
+            <h3>Lista de Projetos</h3>
+            <div id="lista">
+            </div>
+        </div>
+    <footer>
+        &copy; Todos os direitos reservado a Guilherme Developer.
+    </footer>
+</body>
+</html>
